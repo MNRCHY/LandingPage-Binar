@@ -1,0 +1,514 @@
+:root{
+    --primary-color1: #091B6F;
+    --primary-color2: #0D28A6;
+    --primary-color3: #5E70C4;
+    --primary-color4: #AEB7E1;
+    --primary-color5: #CFD4ED;
+
+    --secondary-color1: #3D7B3F;
+    --secondary-color2: #5CB85F;
+    --secondary-color3: #92D094;
+    --secondary-color4: #C9E7CA;
+    --secondary-color5: #DEF1DF;
+
+    --alert1: #FA2C5A;
+    --alert2: #F9CC00;
+    --alert3: #73CA5C;
+
+    --neutral1: #151515;
+    --neutral2: #3C3C3C;
+    --neutral3: #8A8A8A;
+    --neutral4: #D0D0D0;
+    --neutral5: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    z-index: 9;
+}
+
+.nav-wrapper{
+    display: flex;
+    margin: 0 100px;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.logo{
+    background-color: var(--primary-color2);
+    width: 100px;
+    height: 35px;
+}
+
+.menu{
+    display: flex;
+    gap: 35px;
+    font-weight: 400;
+}
+
+.menu-item{
+    padding: 10px;
+}
+
+.menu-link{
+    color: var(--neutral1);
+}
+
+.menu-link2{
+    color: var(--neutral5);
+}
+
+.regis-button{
+    font-weight: 600;
+    padding: 8px 15px;
+    color: var(--neutral5);
+    background-color: var(--secondary-color2);
+    border-radius: 5px;
+}
+
+/* offcanvas */
+
+.menu-toggle{
+    display: none;
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: var(--neutral4); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 20px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--neutral5);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  
+/* offcanvas */
+
+/* home */
+
+/* hero banner */
+.hero-banner{
+    display: flex;
+    padding-top: 100px;
+}
+.hero-text{
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+.hero-text h1{
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
+
+.hero-text p{
+    font-size: 1rem;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.sewa-sekarang{
+    background-color: var(--secondary-color2);
+    padding: 8px 12px;
+    color: var(--neutral5);
+}
+/* hero banner */
+
+/* service section */
+.service-content{
+    display: flex;
+}
+
+.service-image{
+    padding-left: 100px;
+}
+
+.service-text{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.service-text h1{
+    padding-top: 100px;
+    padding-bottom: 25px;
+    font-size: 2rem;
+}
+
+.service-text p{
+    padding-bottom: 25px;
+    text-align: justify;
+}
+
+.list-item{
+    padding-bottom: 15px;
+}
+/* service section */
+
+/* Why Us */
+.about-wrapper{
+    padding: 0 100px;
+    margin-top: 100px;
+}
+
+.about-heading h1{
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+
+.about-heading p{
+    margin-bottom: 50px;
+}
+    /* cards */
+    .cards{
+        border: solid;
+        padding: 25px;
+        border-width: thin;
+        border-radius: 15px;
+        width: 250px;
+        height: 200px;
+    }
+
+    .card-wrapper{
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+    }
+
+    .card-icon{
+        margin-bottom: 15px;
+    }
+
+    .cards h4{
+        margin-bottom: 10px;
+    }
+    /* cards */
+/* Why Us */
+
+/* testimonial */
+
+.testimoni-heading{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.testimoni-heading h1{
+    margin-bottom: 15px
+}
+
+.testimoni-heading p{
+    margin-bottom: 50px
+}
+
+/* card slider */
+.rating-star{
+    display: flex;
+}
+
+.testimonial {
+    position: relative;
+    margin-left: 250px;
+    max-width: 900px;
+    width: 100%;
+    padding: 50px 0;
+    overflow: hidden;
+  }
+  .testimonial .image {
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .testimonial .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+    height: 100%;
+    width: 100%;
+  }
+  .slide p {
+    text-align: center;
+    padding: 0 160px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+  }
+  .slide .quote-icon {
+    font-size: 30px;
+    color: #4070f4;
+  }
+  .slide .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .details .name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+  }
+  .details .job {
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+  }
+  /* swiper button css */
+  .nav-btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transform: translateY(30px);
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
+  }
+  .nav-btn:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .nav-btn::after,
+  .nav-btn::before {
+    font-size: 20px;
+    color: #fff;
+  }
+  .swiper-pagination-bullet {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .swiper-pagination-bullet-active {
+    background-color: #4070f4;
+  }
+ 
+  
+/* card slider */
+
+/* testimonial */
+
+/* sewa mobil */
+.sewa-content{
+    padding: 100px 50px ;
+    margin: 100px 200px;
+    border-radius: 25px;
+    background-color: var(--primary-color3);
+    text-align: center;
+}
+
+.sewa-content h1{
+    padding-bottom: 25px;
+}
+
+.sewa-content p{
+    padding-bottom: 25px;
+}
+
+.sewa-button2{
+    text-align: center;
+    background-color: var(--secondary-color2);
+    color: var(--neutral5);
+    padding: 8px 13px;
+    width: 200px;
+}
+/* sewa mobil */
+
+/* FAQ */
+.faq-wrapper{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.faq-heading{
+    padding-left:  100px; 
+}
+
+.faq-heading h1{
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.collapsible-faq{
+    flex: 0 0 55%;
+    padding: 0 50px;
+}
+
+.faq-content{
+    flex: 0 0 45%;
+}
+
+.collapsible {
+    background-color: var(--neutral5);
+    color: var(--neutral1);
+    cursor: pointer;
+    padding: 18px;
+    margin-bottom: 5px;
+    width: 100%;
+    border-width: thin;
+    border-radius: 5px;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: var(--neutral4);
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    margin-bottom: 5px;
+    background-color: var(--neutral4);
+  }
+/* FAQ */
+/* home */
+
+/* footer */
+.footer-wrapper{
+    padding: 0 100px;
+}
+
+.footer-content{
+    display: flex;
+    gap: 50px;
+}
+
+.address-item{
+    margin-bottom: 25px;
+}
+
+.menu-content{
+    margin-bottom: 15px;
+    color: var(--neutral1);
+}
+
+.social-text{
+    margin-bottom: 15px;
+}
+
+.copy-text{
+    margin-bottom: 15px;
+}
+
+.logo-color{
+    background-color: var(--primary-color2);
+    width: 100px;
+    height: 35px;
+}
+/* footer */
+
+
+@media screen and (max-width: 1024px) {
+    .container{
+        width: 1024px;
+    }
+    
+    .navbar{
+        width: 1024px;
+    }
+    
+    .menu{
+        right: 0;
+        gap: 25px;
+    }
+
+    .hero-text h1{
+        font-size: 1.5rem;
+        margin-bottom: 25px;
+    }
+
+    .hero-image{
+        width: 10%;
+        margin-right: 250px;
+    }
+
+    .service-text{
+        padding: 0 75px;
+        margin: 0;
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+    .menu-wrapper{
+        display: none;
+    }
+
+    .nav-wrapper{
+        margin-left: 100px;
+
+    }
+
+    .menu-toggle{
+        display: initial;
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slide p {
+      padding: 0 20px;
+    }
+    .nav-btn {
+      display: none;
+    }
+  }
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

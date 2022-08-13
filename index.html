@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Binar Car Rental</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container nav-wrapper">
+                <a href="#" class="logo"></a>
+                <div class="menu-wrapper">
+                    <ul class="menu">
+                        <li class="menu-item">
+                            <a href="#Our-Services" class="menu-link">Our Services</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#Why-Us" class="menu-link">Why Us</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#Testimonial" class="menu-link">Testimonial</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#FAQ" class="menu-link">FAQ</a>
+                        </li>
+                        <li class="regis-button">
+                            <a href="#Regis" class="menu-link2">Register</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#Our-Services" class="menu-item">Our Service</a>
+                    <a href="#Why-Us" class="menu-item">Why Us</a>
+                    <a href="#Testimonial" class="menu-item">Testimonial</a>
+                    <a href="#FAQ" class="menu-item">FAQ</a>
+                    <a href="#" class="regis-button">Registrasi</a>
+                  </div>
+                  
+                  <!-- Use any element to open the sidenav -->
+                  <button onclick="openNav()" class="menu-toggle"><link rel="stylesheet" href="assets/images/fi_menu.png"></button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-wrapper">
+            <div class="home-content">
+                <div class="hero-banner">
+                    <div class="hero-text">
+                        <h1>Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
+                        <p>Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
+                        <div class="sewa-button">
+                            <a href="#" class="sewa-sekarang">Mulai Sewa Mobil</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="assets/images/img_car.png" alt="">
+                    </div>
+                </div>
+
+                <div class="service-banner" id="Our-Services">
+                    <div class="service-content">
+                        <div class="service-image">
+                            <img src="assets/images/img-girl.png" alt="">
+                        </div>
+                        <div class="service-text">
+                            <h1>Best Car Rental for any kind of trip in (Lokasimu)!</h1>
+                            <p>Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding, meeting, dll.</p>
+                            <ul class="service-list">
+                                <li class="list-item">Sewa Mobil Dengan Supir di Bali 12 Jam</li>
+                                <li class="list-item">Sewa Mobil Lepas Kunci di Bali 24 Jam</li>
+                                <li class="list-item">Sewa Mobil Jangka Panjang Bulanan</li>
+                                <li class="list-item">Gratis Antar - Jemput Mobil di Bandara</li>
+                                <li class="list-item">Layanan Airport Transfer / Drop In Out</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about" id="Why-Us">
+                <div class="about-wrapper">
+                    <div class="about-content">
+                        <div class="about-heading">
+                            <h1>Why Us?</h1>
+                            <p>Mengapa harus pilih Binar Car Rental?</p>
+                        </div>
+                        <div class="card-wrapper">
+                            <div class="cards">
+                                <img src="assets/images/icon_thumb.png" class="card-icon" alt="">
+                                <h4>Mobil Lengkap</h4>
+                                <p>Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan terawat</p>
+                            </div>
+                            <div class="cards">
+                                <img src="assets/images/icon_price.png" class="card-icon" alt="">
+                                <h4>Harga Murah</h4>
+                                <p>Harga murah dan bersaing, bisa bandingkan harga kami dengan rental mobil lain</p>
+                            </div>
+                            <div class="cards">
+                                <img src="assets/images/icon_24hrs.png" class="card-icon" alt="">
+                                <h4>Layanan 24 Jam</h4>
+                                <p>Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga tersedia di akhir minggu</p>
+                            </div>
+                            <div class="cards">
+                                <img src="assets/images/icon_professional.png" class="card-icon" alt="">
+                                <h4>Sopir Profesional</h4>
+                                <p>Sopir yang profesional, berpengalaman, jujur, ramah dan selalu tepat waktu</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimoni" id="Testimonial">
+                <div class="testimoni-wrapper">
+                    <div class="testimoni-heading">
+                        <h1>Testimonial</h1>
+                        <p>Berbagai review positif dari para pelanggan kami</p>
+                    </div>
+                    <div class="testimoni-slider">
+                        <div class="testimonial mySwiper">
+                            <div class="testi-content swiper-wrapper">
+                              <div class="slide swiper-slide">
+                                <img src="assets/images/testi_photo.png" alt="" class="image" />
+                                <div class="details">
+                                    <span class="name">John Dee</span>
+                                    <span class="job">Bromo</span>
+                                </div>
+                                <div class="rating-wrapper">
+                                    <ul class="rating-star">
+                                        <li>
+                                            <img src="assets/images/Star.png" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/Star.png" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/Star.png" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/Star.png" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/Star.png" alt="">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p>
+                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                                  saepe provident dolorem a quaerat quo error facere nihil deleniti
+                                  eligendi ipsum adipisci, fugit, architecto amet asperiores
+                                  doloremque deserunt eum nemo.
+                                </p>
+                              </div>
+                              <div class="slide swiper-slide">
+                                <img src="assets/images/testi_photo.png" alt="" class="image" />
+                                <div class="details">
+                                    <span class="name">John Dee</span>
+                                    <span class="job">Bromo</span>
+                                </div>
+                                <div class="rating-wrapper">
+                                    <ul class="rating-star">
+                                        <li>
+                                            <img src="assets/images/Star.png" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/Star.png" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/Star.png" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/Star.png" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/Star.png" alt="">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p>
+                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                                  saepe provident dolorem a quaerat quo error facere nihil deleniti
+                                  eligendi ipsum adipisci, fugit, architecto amet asperiores
+                                  doloremque deserunt eum nemo.
+                                </p>
+                              </div>
+                              <div class="slide swiper-slide">
+                                <img src="assets/images/testi_photo.png" alt="" class="image" />
+                                <div class="details">
+                                    <span class="name">John Dee</span>
+                                    <span class="job">Bromo</span>
+                                </div>
+                                <div class="rating-wrapper">
+                                    <ul class="rating-star">
+                                        <li>
+                                            <img src="assets/images/Star.png" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/Star.png" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/Star.png" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/Star.png" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/Star.png" alt="">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p>
+                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                                  saepe provident dolorem a quaerat quo error facere nihil deleniti
+                                  eligendi ipsum adipisci, fugit, architecto amet asperiores
+                                  doloremque deserunt eum nemo.
+                                </p>
+                              </div>
+                            </div>
+                            <div class="swiper-button-next nav-btn"></div>
+                            <div class="swiper-button-prev nav-btn"></div>
+                            <div class="swiper-pagination"></div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sewa-wrapper">
+                <div class="sewa-content">
+                    <h1>Sewa Mobil di (Lokasimu) Sekarang</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div>
+                        <a href="#" class="sewa-button2">Mulai Sewa Mobil</a>
+                    </div>
+                </div>
+            </div>
+            <div class="faq" id="FAQ">
+                <div class="faq-wrapper">
+                    <div class="faq-heading">
+                        <h1>Frequently Asked Question</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                    <div class="collapsible-faq">
+                        <button type="button" class="collapsible">Apa saja syarat yang dibutuhkan?</button>
+                        <div class="content">
+                            <p>LLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <button type="button" class="collapsible">Berapa hari minimal sewa mobil lepas kunci?</button>
+                        <div class="content">
+                            <p>LLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <button type="button" class="collapsible">Berapa hari sebelumnya sabaiknya booking sewa mobil?</button>
+                        <div class="content">
+                            <p>LLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <button type="button" class="collapsible">Apakah Ada biaya antar-jemput?</button>
+                        <div class="content">
+                            <p>LLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <button type="button" class="collapsible">Bagaimana jika terjadi kecelakaan?</button>
+                        <div class="content">
+                            <p>LLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-content">
+                <div class="contact">
+                    <ul class="address">
+                        <li class="address-item">Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</li>
+                        <li class="address-item">binarcarrental@gmail.com</li>
+                        <li class="address-item">081-233-334-808</li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul class="menu-wrapper">
+                        <li class="menu-content">
+                            <a href="#OurServices">Our Services</a>
+                        </li>
+                        <li class="menu-content">
+                            <a href="#WhyUs">Why Us</a>
+                        </li>
+                        <li class="menu-content">
+                            <a href="#Testimonial">Testimonial</a>
+                        </li>
+                        <li class="menu-content">
+                            <a href="#FAQ">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <p class="social-text">Connect with us :</p>
+                    <div class="social-wrapper">
+                        <a href="#facebook" class="social-icon">
+                            <img src="assets/images/icon_facebook.png" alt="">
+                        </a>
+                        <a href="#instagram" class="social-icon">
+                            <img src="assets/images/icon_instagram.png" alt="">
+                        </a>
+                        <a href="#twitter" class="social-icon">
+                            <img src="assets/images/icon_twitter.png" alt="">
+                        </a>
+                        <a href="#mail" class="social-icon">
+                            <img src="assets/images/icon_mail.png" alt="">
+                        </a>
+                        <a href="#twitch" class="social-icon">
+                            <img src="assets/images/icon_twitch.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="copyright-wrapper">
+                        <p class="copy-text">Copyrigth Binar 2022</p>
+                        <div class="logo-color">
+                            <a href="#" class="logo-copy"></a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
